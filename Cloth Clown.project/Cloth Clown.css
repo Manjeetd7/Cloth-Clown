@@ -1,0 +1,271 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.box1{
+border: 1px solid black;
+background-color: black;
+height: 40px;
+
+}
+
+ul{
+
+    float: left;
+color: white;
+}
+
+ul li{
+float: left;
+position: relative;
+left: 400%;
+padding-top: 10px;
+width: 100px;
+font-size: 14px;
+font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+ul li a{
+
+    text-decoration: none;
+    color:white;
+}
+
+ul li a :hover{
+    color: brown;
+}
+
+
+.subbox{
+border: 1px solid transparent;
+background-color: whitesmoke;
+height: 50px;
+
+}
+
+ol{float: left;}
+
+ol li{
+float: left;
+width: 120px;
+position: relative;
+left: 90%;
+padding-top: 20px;
+font-weight: 400;
+list-style-type: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+}
+
+ol li a{
+
+    text-decoration: none;
+    color: black;
+}
+
+ol li a:hover{
+
+    border-bottom: 4px solid black;
+}
+
+.fa-magnifying-glass{
+
+    position: absolute;
+    left: 87%;
+    top: 8%;
+    color: black;
+}
+
+.fa-user{
+
+    position: absolute;
+    left: 90%;
+    top: 8%;
+    color: black;
+}
+
+.fa-cart-shopping{
+    position: absolute;
+    left: 93%;
+    top: 8.5%;
+    color: black;
+    width: 25px;
+    height: -30px;
+    border-radius: 100px;
+    background-color: navajowhite;
+    margin-top: -2px;
+    margin-left: -4px;
+    text-align: left;
+}
+
+h3{
+    color: red;
+    position: absolute;
+    left: 93.5%;
+    top: 6%;
+    width: 18px;
+    height: -50px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+h1{
+position: absolute;
+left:70px;
+text-transform: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-top: 3px;
+}
+
+font{
+
+color: red;}
+
+.cover img{
+
+    background-size: cover;
+    height: 730px;
+    width: 1620px;
+position: absolute;
+
+}
+
+.text{
+
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    font-size: larger;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+
+h2{
+font-size: 0px;
+text-transform: capitalize;
+width: 900px;
+word-spacing: 0px;
+font-weight: normal;
+line-height: 20px;}
+
+
+h4{
+    margin-top: 1px;
+    color: white;
+    top: 100%;
+    margin: 8px 12px;
+    font-size: 18px;
+    position: absolute;
+    left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    }
+}
+
+form input[type="submit"]
+{
+position: absolute;
+top: 150%;
+padding: 10px;
+text-transform: uppercase;
+background-color: crimson;
+border: none;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+letter-spacing: 1px;
+}
+
+form input[type="submit"]:hover{
+    background-color: black;
+}
+
+.image2{
+position: absolute;
+left: 10%;
+top: 100%;
+border: 1px solid darkgrey;
+box-shadow: 1px 2px 4px;
+}
+
+h6{
+position: absolute;
+color:black;
+left: 15%;
+top: 75%;
+border: 1px solid whitesmoke;
+width: 200px;
+font-size: 20px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color: whitesmoke;
+font-weight: normal;
+text-align: center;
+
+}
+
+.image2:hover{
+    box-shadow: 1px 3px 9px;
+
+}
+
+.image3{
+    position: absolute;
+    left: 40%;
+    top: 100%;
+    border: 1px solid darkgrey;
+    box-shadow: 1px 2px 4px;
+}
+
+.image3:hover{
+    box-shadow: 1px 3px 9px;}
+
+    h{
+        position: absolute;
+        color:black;
+        left: 15%;
+        top: 75%;
+        border: 1px solid whitesmoke;
+        width: 200px;
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: whitesmoke;
+        font-weight: normal;
+        text-align: center;   
+    }
+
+    .image3{
+    position: absolute;
+    left: 70%;
+    top: 100%;
+    border: 1px solid darkgrey;
+    box-shadow: 1px 2px 4px;
+}
+
+
+.image4{
+    position: absolute;
+    left: 40%;
+    top: 100%;
+    border: 1px solid darkgrey;
+    box-shadow: 1px 2px 4px;
+}
+
+.image4:hover{
+    box-shadow: 1px 3px 9px;
+}
+
+t{
+    position: absolute;
+        color:black;
+        left: 15%;
+        top: 75%;
+        border: 1px solid whitesmoke;
+        width: 200px;
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: whitesmoke;
+        font-weight: normal;
+        text-align: center;  
+}
